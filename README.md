@@ -41,6 +41,7 @@ Berikut adalah **langkah-langkah lengkap** untuk membuat dan menjalankan project
 3. **Buat Project Laravel Baru (contoh: `example-app`)**
    ```bash
    composer create-project laravel/laravel example-app
+   
    > Tunggu proses instalasi selesai. Ini bisa memakan waktu beberapa menit tergantung kecepatan internet.
 
 4. **Masuk ke folder project Laravel (`example-app`)**
@@ -58,4 +59,5 @@ Berikut adalah **langkah-langkah lengkap** untuk membuat dan menjalankan project
 7. **Buka browser**, lalu akses:
    ```
    http://127.0.0.1:8000
+   
    > Jika berhasil, maka akan tampil halaman welcome dari Laravel (versi 8.0 ke atas tergantung versi yang terinstal).
