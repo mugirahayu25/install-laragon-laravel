@@ -34,30 +34,30 @@ Berikut adalah **langkah-langkah lengkap** untuk membuat dan menjalankan project
    - Buka aplikasi **Laragon**
    - Klik menu **“Menu”** > pilih **“Terminal”**
 
-2. **Arahkan ke direktori `www` Laragon**
+2. **Arahkan ke direktori `www` Laragon:**
    ```bash
    cd C:\laragon\www
 
-3. **Buat Project Laravel Baru (contoh: `example-app`)**
+3. **Buat Project Laravel Baru (contoh: `example-app`):**
    ```bash
    composer create-project laravel/laravel example-app
-   
+   ---
    > Tunggu proses instalasi selesai. Ini bisa memakan waktu beberapa menit tergantung kecepatan internet.
 
-4. **Masuk ke folder project Laravel (`example-app`)**
+4. **Masuk ke folder project Laravel (`example-app`):**
    ```bash
    cd example-app
 
-5. **Jalankan Laravel menggunakan perintah artisan**
+5. **Jalankan Laravel menggunakan perintah artisan:**
    ```bash
    php artisan serve
    
-6. Setelah berhasil, akan muncul tampilan seperti ini:
+6. **Setelah berhasil, akan muncul tampilan seperti ini:**
    ```
    Starting Laravel development server: http://127.0.0.1:8000
 
 7. **Buka browser**, lalu akses:
    ```
    http://127.0.0.1:8000
-   
+   ---
    > Jika berhasil, maka akan tampil halaman welcome dari Laravel (versi 8.0 ke atas tergantung versi yang terinstal).
