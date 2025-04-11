@@ -62,7 +62,7 @@ Berikut adalah **langkah-langkah lengkap** untuk membuat dan menjalankan project
 
 8. **Hubungkan dengan Laravel**
    Buka file .env di root folder Laravel kamu, lalu ubah bagian berikut:
-    ---
+   ```bash
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
@@ -71,7 +71,7 @@ Berikut adalah **langkah-langkah lengkap** untuk membuat dan menjalankan project
    DB_PASSWORD= 
 
 9. **Kalau sudah, kamu bisa lanjut jalanin migrasi database:**
-   ---
+   ```bash
    php artisan migrate
    Kalau php artisan migrate berhasil tanpa error, berarti database-nya sudah terhubung dengan Laravel. 
 
